@@ -1,0 +1,17 @@
+question 5
+
+def fact(num):
+    if(num==0):
+        return 1
+    else:
+        return (num*fact(num-1))
+
+a=int(input("Enter a number to calculate the factorial : "))
+n=fact(a)
+dict = {a:n}
+print(dict)
+
+output
+
+Enter a number to calculate the factorial : 7
+{7: 5040}

@@ -1,0 +1,17 @@
+question 4
+
+def power (num,pow):
+    if (pow):
+        return (num * power(num, pow - 1))
+    return 1
+
+a=int(input("Enter a number : "))
+b=int(input("Enter it's power : "))
+res=power(a,b)
+print(res)
+
+output
+
+Enter a number : 2
+Enter it's power : 5
+32

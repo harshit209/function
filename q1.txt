@@ -1,0 +1,14 @@
+question 1
+
+def sphere(rad):
+    a = 4.0*3.14*rad*rad
+    return a
+radius = float(input("Enter the radius of the sphere to calculate area : 
+"))
+i=sphere(radius)
+print("Area = ",i)
+
+output
+
+Enter the radius of the sphere to calculate area : 5
+Area =  314.0
